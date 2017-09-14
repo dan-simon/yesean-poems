@@ -1,0 +1,1 @@
+This repository is meant to be viewed via GitHub Pages. It's basically a place where I write short things, hopefully ending up with more material than my attempt a few years ago.

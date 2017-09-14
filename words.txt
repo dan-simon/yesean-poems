@@ -1,0 +1,29 @@
+steep: hebubu
+quick: zoche
+go: kimo
+almost: riya
+fall: horo
+[thing]: ru
+[-ness]: so
+of: yu
+small: role
+poem: juleku
+language: nale
+nature: bige
+rock: tisu
+[the language, culture, place, etc]: yese
+verb/noun [yesean grammatical term]: chubeni
+adjective/adverb [yesean grammatical term]: hisato
+preposition/conjunction [yesean grammatical term]: pechapi
+helper word [yesean grammatical term]: nibeze
+[-ness for conjunctions or prepositions]: du
+with respect to: su
+not: mu
+with [of manner]: pe
+in: ti
+[plural marker]: da
+[subject marker]: mi
+[object marker]: lu
+[inversion marker]: ro
+on: disa
+note not word - ti can mean in, on, or even at (spatially or temporally): 389483947304

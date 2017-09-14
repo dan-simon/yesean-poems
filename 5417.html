@@ -1,0 +1,42 @@
+<html>
+<head>
+    <meta charset='UTF-8'>
+</head>
+<body>
+    English: The rock is steep; I go quickly and almost fall.
+    <br/>
+    Yesean: hebubu tisu / zoche kimo / riya horo
+    <br/>
+    Literal English meaning: steep rock / quick go / almost fall
+    <br/>
+    This is a relatively simple role juleku, as they go, and so a good place to start explaining either the rules of role juleku or the Yesean language (yu nale yese). So I'll do both. (Do, however, be aware that this could be the longest post for a long time, perhaps by far.)
+    <br/>
+    First for the Yesean language. According to the oldest Yesean grammars we have (which are about 20 cycles old), every word in Yesean (with a few exceptions) is one of three parts of speech. These parts of speech are chubeni (corresponding to our nouns, pronouns, verbs, etc.), hisato (corresponding to our adjectives, adverbs, articles, tense and mood markers, etc.), and pechapi (corresponding to our prepositions, conjunctions, subject/object markers, etc.). (It's worth noting at this point that Yesean doesn't generally have pluralization, not since I'm explaining grammar but rather to avoid confusion from singular-seeming Yesean words where there should apparently be a plural.) The rules of combining these into sentences are very easy to descibe recursively, with the following context-free-grammar rules (where C is the initial nonterminal).
+    <br/>
+    C = chubeni | H C | "so" H | "du" P | "ru"
+    <br/>
+    H = hisato | P C
+    <br/>
+    P = pechapi | "ro" P
+    <br/>
+    One might notice that the three nonterminals correspond to parts of speech, and indeed components of a sentence that are one of these nonterminals are sometimes said to belong to the corresponding part of speech.
+    <br/>
+    One might wonder what "so", "du", "ru", and "ro" are. "ru" is a dummy word that just means "thing", or "action", or "does something", or "person", depending on context; it's not considered a chubeni because it doesn't really mean anything. "so" and "du" both mean "-ness"; they just apply to different parts of speech. For example, "so zoche" would mean "quickness" (since "zoche" means "quick") and because "ti" means "in", "du ti" would mean "in-ness", that is, the state of being in something. There are some tricky ways "so" and "du" are used (like allowing hisato to apply to non-chubeni) but they're still not that common. "ro" is probably the most complicated; "ro P A B" implies the same relationship between A and B as "P B A", but refers to B rather than A. For example, since "disa" means on ("ti" can also mean "on", but "disa" is more specific), "ro disa kimo [go] tiso [rock]" means "the rock on which there is going" (with an unspecified subject of the going). Compare with "disa tiso kimo", which means "going on the rock", implying the same relationship between the rock and the going but referring to the going rather than the rock. "so", "du", "ru", and "ro" are grammatically lumped into the category nibeze, which is often translated as "helper word".
+    <br/>
+    (It's worth noting that when modern linguists analysed Yesean, they found, based on subtle distinctions in the ways people said things, that Yesean followed the same grammatical models as any other language, just with a lot of movement. A noun-verb distinction even showed up. The current academic consensus is that Yesean grammars were an idealization of the truth at the time, and somehow (against what generally happens in such cases) the principles in them trickled down through society over the cycles. This has put new light on some grammatical errors in early Yesean texts.)
+    <br/>
+    Let's consider this week's poem through the lens of Yesean grammar. hebubu, zoche, and riya are all hisato, and tiso, kimo, and horo are all chubeni. This means that each line has the same grammatical structure of hisato + chubeni. In one line, the hisato is what would in English be an adjective and the chubeni would be a noun. This line is "hebubu tisu", translating as "steep rock". In the other lines, the hisato would be adverbs and the chubeni would be verbs, leading to the translations "quick go" and "almost fall".
+    <br/>
+    Note that in my non-so-literal English translation, I translate "steep rock" as "The rock is steep." Although there is a chubeni that means "to be", it's often not used where English would use "to be". "Steep rock", as a standalone sentence (which it is here), implies that there is a rock, and that it is steep; there's no reason to say it any more explicitly.
+    <br/>
+    I also add "I" as the subject. Similarly to before, the subject is often left implicit (especially when, as here, it's not that important). The "and" I add is somewhat superfluous even in English; I could say "The rock is steep; I go quickly; I almost fall." As before, it's implied.
+    <br/>
+    Now we get to the rules of role juleku. The first rule is that there must be three lines, each with two chubeni or hisato, and with none of the six chubeni or hisato used twice. So even though this role juleku has one chubeni and one hisato in each line, that's not a requirement: there could be two of one or the other in a line.
+    <br/>
+    The next rule is that the third line must (in some sense) follow from the previous two lines, or at least make a lot of sense given them. This is fairly clear here; if you go quickly on a steep rock, almost falling is reasonably likely (indeed, falling is reasonably likely).
+    <br/>
+    The third rule is that it must be about nature (bige in Yesean), and ideally written in nature. This rule is bent, and bent by different writers at various angles, from 1 arcsecond to 540 degrees. I generally try to write about nature, but I could write a role juleku about the electrons in the circuits of my computer without feeling too bad.
+    <br/>
+    OK, that's it. This took longer than I hoped, so you (if there are any readers out there, which to be honest would be a bit of a surprise) probably won't be getting an entry this length regularly. Maybe as an end/start of year/season treat, but not in general. (Wow, this is around 6 kilobytes. I want to aim for 1k most of the time, so a post this long should be very rare.)
+</body>
+</html>

@@ -27,3 +27,32 @@ in: ti
 [inversion marker]: ro
 on: disa
 note not word - ti can mean in, on, or even at (spatially or temporally): 389483947304
+fog: zijone
+low: sapa
+high: ala
+near [adjective]: buzi
+far: ziku
+cloud: chucheni
+tower: lesuo
+hide: nenedo
+number: kuda
+one (number): doya
+two: rumo
+three: tiza
+four: yole
+five: sau
+six: muki
+seven: robise
+eight: rigatu
+nine: lujuju
+ten: tukedu
+eleven: tazimi
+twelve: yeluti
+(at a time (generally takes so + number), one at a time: sudo
+made of: hamu
+fire: nage
+flower: bire
+short: duja
+art: mepi
+blog: baloga
+write: mije

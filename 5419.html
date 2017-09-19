@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta charset='UTF-8'>
+</head>
+<body>
+    English: The fog is low; far towers almost hide.
+    <br/>
+    Yesean: sapa zijone / ziku lesuo / riya nenedo
+    <br/>
+    Literal English meaning: low fog / far tower / almost hide
+    <br/>
+    As last week, the structure of each line is hisato + chubeni. This is probably the most common line structure in role juleku (although all three lines having this structure is not especially common). Also notice the presence of towers, which are artificial rather than natural (and of course actually refer to buildings in the context here), and the split of "far towers almost hide" into two lines (in non-poetic Yesean it would be "mi ziku lesuo riya nenedo", using the pechapi subject marker mi to say that the far towers are the subject).
+    <br/>
+    Today's post, however, is not about Yesean or role juleku. It is about the concepts of P, NP, and NP-complete in the field of computer science, summarized in a few paragraphs.
+    <br/>
+    First, what is a polynomial? A polynomial (using the variable x, say; x could be replaced by anything else and it wouldn't really matter) is simply a sum of constants multiplied by x raised to non-negative integer powers. For example, 2.5x^2 - 13 is a polynomial.
+    <br/>
+    OK, so what is polynomial time? To understand this concept we must understand that computers (if they're not running in parallel, or doing something smart, or actually quantum computers (actually this sort of applies to quantum computers but I don't want to go there this week), or etc.) generally perform one action at a time, which is, for example, adding two numbers. Also, problems computers handle generally have an input size. A 9x9 Sudoku might have input size 9 * 9 = 81, but the could be bigger (or smaller) examples of the same problem, like a 16x16 Sudoku which would have input size 16 * 16 = 256. (By the way, Sudoku comes from "sudo kuda", a number (kuda) at a time (sudo), referring to the fact that there's one number in each box. [Actually in our world, Sudoku comes from "suji" (number) + "dokushin" (single), which has similar meaning and lexemes to my fake etymology but different pronuncations. I had better start planning all my fake etymologies or I'll be forced to contradict myself.]) Thus, we can say that an algorithm A is polynomial-time if there is some polynomial p such that, if the input size is x, A always takes at most p steps.
+    <br/>
+    If a problem can be solved by a polynomial-time algorithm, we say the problem is in P. Now, a potential solution to a problem (I mean a specific solution to an example of the problem, not an algorithm for solving that type of problem) also has a size. If there exists an algorithm that, given a problem and a potential solution, can check whether the solution is correct in polynomial time, the problem is said to be in NP. (The descriptions of P and NP here are not completely rigorous, but they're close. If something I say seems subtlely wrong, though, it's probably since my definitions weren't careful enough.)
+    <br/>
+    It turns out that, as you might expect, quick solving implies quick-checking; every problem in P is in NP. But the other way around is a huge open question, called "P = NP?" What has been found is that there are some specific types of problems in NP which every problem in NP can be reduced to in a certain way; this implies that if these problems are in P, all problems in NP are in P. Such problems are said to be NP-hard or NP-complete. It is believed my most computer science researchers that P is not equal to NP, but if even one NP-complete problem were in P, all of them would be, which would be a huge shock.
+    <br/>
+    Penultimately: this post is about 4k. [I think that's how long it is with these pesky out of world comments removed. I should probably write a script that removes them, together with the HTML tags.] That is still a lot. Maybe I'll find the art of short posts (yu duja balomi mepi, where mibalo (blog post) is a chubeni made by contracting "ro lu ti balogo mije re" (thing written in a blog) with all the one-syllable words removed). [I decided, somewhat arbitrarily, that "small" and "short" should be different words but both used in the context of text length. When randomly generating a word to mean "short", the first thing that came up was "yuge". I am of course not using that suggestion.]
+    <br/>
+    Lastly: remember that the last day of the upcoming week is the equinox. Next post will be about that (and probably no shorter than those before it).
+    <br/>
+    Tags: @cs, @timecomplexity, @long, @post
+</body>
+</html>

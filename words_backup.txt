@@ -109,22 +109,3 @@ Jupiter (planet): herapi
 Saturn (planet): rubutu
 Uranus (planet): uranu
 Neptune (planet): netunu
-come: muye
-China (nowadays inappropriate): shina
-branch (of a tree), metaphorically a part of something: shine
-China (modern term): chugoku
-part: lare
-center/middle: kaja
-full: yeti
-empty: buza
-energy: gete
-sky: bepi
-element (basic substance that makes up things, can be used metaphorically): riche
-element (as in chemistry): elemetu
-to be, to exist: sago
-[predicate marker, used with to be, to become, and such]: ta
-to become: boji
-[past tense marker]: yi
-[future tense marker]: si
-[near future tense marker, translates as is going to/about to ___]: kete
-[near past tense marker, translates as have ___ed]: zubo

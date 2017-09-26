@@ -2,11 +2,11 @@ steep: hebubu
 quick: zoche
 go: kimo
 almost: riya
-fall: horo
+fall (verb): horo
 [thing]: ru
 [-ness]: so
 of: yu
-small: role
+small/little: role
 poem: juleku
 language: nale
 nature: bige
@@ -109,3 +109,36 @@ Jupiter (planet): herapi
 Saturn (planet): rubutu
 Uranus (planet): uranu
 Neptune (planet): netunu
+come: muye
+China (nowadays inappropriate): shina
+branch (of a tree), metaphorically a part of something: shine
+China (modern term): chugoku
+part: lare
+center/middle: kaja
+full: yeti
+empty: buza
+energy: gete
+sky: bepi
+element (basic substance that makes up things, can be used metaphorically): riche
+element (as in chemistry): elemetu
+to be, to exist: sago
+[predicate marker, used with to be, to become, and such]: ta
+to become: boji
+[past tense marker]: yi
+[future tense marker]: si
+[near future tense marker, translates as is going to/about to ___]: kete
+[near past tense marker, translates as have ___ed]: zubo
+flow (noun or verb): moge
+slow: bodi
+fast: ile
+big/large: pako
+long: kaju
+part of speech (yesean grammatical term): jashao
+sits (can apply to objects, to occupy the same position for a long time without much motion): luzi
+sits (without one's legs dangling, for example on the ground or on a small cushion): chodiyi
+sits (with one's legs dangling (or reaching the ground), for example in a chair or on a bed): jopezu
+rest (whether sitting, lying down, sleeping, or otherwise, as in English): bete
+age (a period of time at least several decades long but depending on context, as in English; not how old something is): buye
+young/new: ruki
+old: rula
+name (noun): chete

@@ -11,6 +11,8 @@ template = '''<html>
     <br/>
     Literal English meaning: [Literal English meaning]
     <br/>
+    Author: [Author]
+    <br/>
     [content as needed]
     <br/>
     Tags: [tags as needed, including @post]

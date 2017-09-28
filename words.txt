@@ -18,8 +18,8 @@ preposition/conjunction [yesean grammatical term]: pechapi
 helper word [yesean grammatical term]: nibeze
 [-ness for conjunctions or prepositions]: du
 with respect to: su
-not: mu
-with [of manner]: pe
+not (hisato): mu
+with (of manner): pe
 in: ti
 [plural marker]: da
 [subject marker]: mi
@@ -93,8 +93,8 @@ summer: choya
 fall (season)/autumn: beso
 winter: heho
 equator: ekuato
-over/above: tige
-under: jiyu
+up/above/over (pechapi) (of location, not direction): tige
+down/below/under (pechapi) (of location, not direction): jiyu
 sun: hege
 moon: rini
 moon (of Earth specifically): luna
@@ -123,7 +123,7 @@ element (basic substance that makes up things, can be used metaphorically): rich
 element (as in chemistry): elemetu
 to be, to exist: sago
 [predicate marker, used with to be, to become, and such]: ta
-to become: boji
+become (takes a predicate): boji
 [past tense marker]: yi
 [future tense marker]: si
 [near future tense marker, translates as is going to/about to ___]: kete
@@ -142,3 +142,215 @@ age (a period of time at least several decades long but depending on context, as
 young/new: ruki
 old: rula
 name (noun): chete
+[hisato that provides emphasis]/very: chu
+reptile/amphibian: zukozi
+frog: yakishe
+lizard: tojio
+snake: chachodu
+turtle/tortoise: beshayu
+animal: shehiso
+live (verb)/life: gomu
+plant: chita
+fireworks: hanabi
+bird: duso
+fish: tono
+mammal: gilu
+cat: razu
+dog: bapa
+horse: pere
+hunt (for meat): hohe
+hunt (in general)/search: jechu
+oil: gujumu
+all/every: rezi
+downwards to/going down to/going to somewhere under (pechapi) (of direction, not location): yamo
+upwards to/going up to/going to somewhere over (pechapi) (of direction, not location): yuye
+into: chosho
+onto: hale
+similar: heche
+different: yibo
+other: nau
+or: tu
+but/although: ho
+and: ya
+cause: liri
+identical/same: tihu
+safe (adjective): ike
+dangerous: juyo
+protect: kego
+continue: choru
+market: yishe
+shop (noun): sigu
+buy: yitu
+sell: hishe
+good: bashu
+bad: jeni
+important: desiku
+relevant: tutuyu
+tool/machine: pato
+organ (of the body): redo
+heart: eduhi
+lung (organ): nereche
+stomach: rabake
+love: saju
+hate: hodo
+clean: bosi
+pure: zeshi
+disgust: zisuyo
+toxic/deadly: zazide
+die (verb): ranu
+kill: saka
+human being: shisu
+person: nuro
+obscene: obasene
+have: hete
+possess (as property): gadu
+carry: yeshe
+hold (verb): deshu
+sea/ocean: buhi
+create: bipe
+destroy: shayo
+lake (larger than pond): belo
+pond (smaller than lake): huku
+sound/noise: raa
+recite: shujelo
+future (noun): botu
+past (noun): biye
+leave: chise
+arrive: uge
+herb: polibu
+leaf: yisu
+allow: yolu
+can (hisato)/be able to: zuyo
+possible: joni
+with (of means)/by means of: shagu
+use (verb)/usage: tuku
+easy: zire
+difficult: gize
+soft: yocha
+hard (opposite of soft): yabu
+fruit: yeto
+vegetable: zedu
+mushroom: semi
+solid (hisato): hohu
+liquid (hisato): maka
+gas (hisato): maja
+plasma (hisato): palasama
+semi- (hisato)/somewhat of a: lupo
+clay: nori
+dough (as bread is made of): dijupu
+powder: dani
+brain (as organ): hajo
+mind/soul (as what has consciousness): seya
+soul (as something nonphysical that has consciousness): soula
+essential: neye
+pigment/paint: seko
+paint (noun) (specificaly): paina
+draw/paint (verb): achi
+ear: shije
+hear: jimu
+listen/pay attention to: yudu
+obey: yago
+lie down: jatubu
+sleep: tili
+many: unu
+most: upo
+plentiful: ziyoyo
+zero: nicho
+cute: shohe
+beautiful: jadi
+smart: shudu
+stupid: hehi
+ugly: bupi
+like (verb): pugu
+solve: nezu
+find: kuru
+lose: tosi
+head (noun): puli
+control (verb or abstract): lizu
+guide (verb): genu
+plan: buhe
+rule (verb or abstract noun, not regulation): lado
+law/rule (noun, similar meaning to law)/regulation: modese
+cloth: bama
+clothing: uyope
+fabric: silu
+shirt: mushi
+pants (as clothing): oro
+shoe: kuja
+silk: buma
+cover (on bed)/sheet: chagea
+public: nai
+private: pea
+cold: ripi
+cool: mode
+warm: chou
+hot: limi
+raw: micha
+prepare (of food): yumu
+cook (verb): shoju
+few: mito
+long and flexible: puyu
+clay-like (in texture): seche
+thin: beka
+thick: jepe
+bend (verb): choche
+turn (verb or noun): neru
+hair: pemesi
+cord/rope/thread: jemo
+yarn: yimeti
+flat (of an object, not of a surface): gaha
+flat (of a surface): chesuhe
+sloped (of a surface): zomilu
+slope (of a surface or a function): hukori
+if: pole
+because: hihu
+in order that: huchi
+book: sime
+record (verb)/document (verb): lasobi
+paper: zoda
+scissors: joreu
+card (playing or index)/a set of cards: bekesi
+internet: iteraneta
+website: itelaso
+blog post: mibalo
+at (a location or time): rulo
+now (noun)/present (time, noun): nili
+present (at some event): bemiji
+real: hoki
+fake: nubi
+true (adjective): zuna
+false (adjective): basi
+hand (noun): sajo
+arm (noun): shune
+finger (noun): zodi
+toe (noun): meso
+foot (noun): zishu
+leg (noun): duye
+see: noni
+look: nari
+smell: hee
+taste: runa
+touch: gume
+feel (as with the hands): ama
+feel (emotionally): duo
+eye: omi
+nose: kecha
+mouth: deka
+tooth: shesha
+tongue: sonu
+lip (of mouth): gosha
+cheek: apa
+chin: rusi
+read: hoga
+examine: iyu
+look for/seek: jogo
+try to (hisato): jae
+door: denu
+hole: piru
+window: hisa
+orifice (of the body): yadua
+dream (verb): shamu
+mirror (verb): pohi
+glass (noun): nepopo
+field of study/discipline: neyi
+symmetry: zayashu

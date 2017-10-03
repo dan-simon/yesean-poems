@@ -1,7 +1,4 @@
-import os
-import re
-
-entry_pattern = r'\d+\.html'
+from post_utils import get_posts
 
 start = '''<html>
 <head>
@@ -23,9 +20,6 @@ end = '''
 </html>
 '''
 
-def sort_files(l):
-    return list(sorted(l, key=lambda x: int(x.split('.')[0])))
-
 def join_br(l):
     return '\n    <br/>\n    '.join(l)
 
@@ -37,7 +31,7 @@ def get_tags(x):
     with open(x) as f:
         tag_lines = [l for l in f.readlines() if l.strip().startswith(tag_line_start)]
     if len(tag_lines) != 1:
-        raise ValueError('Too few or too many tag lines (' + str(len(tag_lines)) + ', not 1).')
+        raise ValueError('Too few or too many tag lines (' + str(len(tag_lines)) + ', not 1) on file ' + x)
     tags = [i.strip() for i in tag_lines[0].strip()[len(tag_line_start):].strip().split(',')]
     if any(not valid_tag(tag) for tag in tags):
         raise ValueError('Bad tags: ' + ', '.join(tag for tag in tags if not valid_tag(tag)))
@@ -55,7 +49,7 @@ def get_tag_dict(files, tags):
     return d
 
 def main_and_tags():
-    files = sort_files(i for i in os.listdir('.') if re.match(entry_pattern, i))
+    files = get_posts()
     tags = [list(sorted(get_tags(i))) for i in files]
     main_section = [link_file(f) + ', with tags ' + ', '.join(t) for f, t in zip(files, tags)]
     tag_dict = get_tag_dict(files, tags)

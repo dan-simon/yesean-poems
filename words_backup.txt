@@ -116,7 +116,7 @@ China (modern term): chugoku
 part: lare
 center/middle: kaja
 full: yeti
-empty: buza
+empty (adjective): buza
 energy: gete
 sky: bepi
 element (basic substance that makes up things, can be used metaphorically): riche
@@ -349,3 +349,11 @@ door: denu
 hole: piru
 window: hisa
 orifice (of the body): yadua
+dream (verb): shamu
+mirror (verb): pohi
+glass (noun): nepopo
+field of study/discipline: neyi
+symmetry: zayashu
+yes (hisato, mostly used in contrast to mu or with some chubeni as an answer): de
+city/town/large settlement: zego
+void/aether (noun): suni

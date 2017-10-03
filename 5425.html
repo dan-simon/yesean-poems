@@ -1,0 +1,68 @@
+<html>
+<head>
+    <meta charset='UTF-8'>
+</head>
+<body>
+    English: A leaf falls; orange on grey; nature in the city
+    <br/>
+    Yesean: mi yisu horo / disa toni ru oranaja ru / ti zego bige
+    <br/>
+    Literal English meaning: leaf fall / on grey thing orange thing / in city nature
+    <br/>
+    Author: yu buye tisu
+    <br/>
+    As usual, we have a pre-main-post initial grammar discussion. First and third lines are typical pechapi + chubeni + chubeni structure which we've seen so many times; second line is pechapi + hisato + ru + hisato + ru, which we've not seen before and which is long (10 syllables), but neverless allowed. Also note that 'oranaja' is borrowed from 'orange', as are many language's main words for orange. [In reality, there seem to be two main words for orange in Japanese, one of which is a borrowing and one of which is made from the root for red. There are also words for various shades of orange. But it is true that many languages have a borrowed word for orange.]
+    <br/>
+    Also, as an interlude between the grammar discussion and the post, the grey thing was intended to be the sidewalk or some such thing. I hope that was clear before this point, since otherwise the last line does not follow from the two before.
+    <br/>
+    This week, you (if there is a 'you' apart from me checking that my 'git push' command worked) get a short post (it ended up not actually being so short) completely unrelated to the poem. The post is about a result from the many-cycles old Yesean study of symmetry (yu zayashu neyi) [not something that actually exists, but if you want strange old Japanese math look up 'sangaku geometry', although it has a very different flavor than the stuff I'll be talking about], which, like most results from yu zayashu neyi, relates to modern group theory.
+    <br/>
+    First we must establish what yu zayashu neyi is, made rigorous (as it has been over the last century; it originated from some analysis of the Yesean system of seven elements (air = higa, water = choni, fire = nage, stone = tisu, metal = bobi, wood = osi, soil = noko) [this system of elements is not actually traditional in any culture, as far as I know; for some reason stone is almost never used in systems of elements] and was until recently a large collection of facts with a small number of minor patterns noted). [Before you read any further: I doubt both that any of this is new and that it has any implications other than being a rather-useless perspective on certain parts of discrete mathematics. It connects all sorts of algebraic objects, but all these connections seem to have already been found.] It's basically a certain form of manipulation of expressions, where the expressions being manipulated are either elements of some finite set of atoms (which can have any number of elements), sets of distinct expressions (now denoted, as in python, as {e_1, e_2, ..., e_n}, although of course other notations were used in the past), or tuples of expressions (now denoted (e_1, e_2, ..., e_n)). The allowed manipulations can be expressed as functions, which are:
+    <br/>
+    equality (recursively defined): expression -&gt; expression -&gt; bool
+    <br/>
+    set has this many elements: for each number n, set -&gt; bool
+    <br/>
+    tuple has this many elements: for each number n, tuple -&gt; bool
+    <br/>
+    make set: for any n, expression -&gt; ... -&gt; expression -&gt; set (where there are n parameters)
+    <br/>
+    make tuple: for any n, expression -&gt; ... -&gt; expression -&gt; tuple (where there are n parameters)
+    <br/>
+    element in position m of tuple: for any 1 &lt;= m &lt;= n, tuple with n elements -&gt; expression
+    <br/>
+    union: set in which each element is a set -&gt; set
+    <br/>
+    intersection: set in which each element is a set -&gt; set
+    <br/>
+    map: set -&gt; function -&gt; set
+    <br/>
+    filter: set -&gt; function -&gt; set
+    <br/>
+    and: bool -&gt; bool -&gt; bool
+    <br/>
+    or: bool -&gt; bool -&gt; bool
+    <br/>
+    not: bool -&gt; bool
+    <br/>
+    Of course these function can be composed, etc. as usual for functions. Note that the empty set and empty tuple can be gotton from make set and make tuple for n = 0, and map and filter on tuples of a given size can be gotten from composing a lot of functions.
+    <br/>
+    As usual, one has to start somewhere. Here, somewhere is with a set of atoms and a set of expressions (called the axioms since one starts with and manipulates them following certain rules). In most cases, the atoms themselves are not expressions one is given, and usually they cannot even be reached by the manipulation rules.
+    <br/>
+    Some basic concepts in yu zayashu neyi are a reachable expression, an irreducible set, and an equivalence between two sets. A reachable expression is one which can be reached by the axioms using only the allowed manipulations. An irreducible set is a reachable expression which is a nonempty set and of which no subset but itself and the empty subset are reachable expressions. A equivalence between two sets A and B is a reachable expression which is a set, contains only elements of the form (a, b) with a in A and b in B, for each a in A contains exactly one element with a as the first item, and for each b in B contains exactly one element with b as the second item. A easy lemma of yu zayashu neyi is that if ~ is defined so that A ~ B if and only if there is a equivalence between A and B, ~ is an equivalent relation. The central theorem of yu zayashu neyi is as follows:
+    <br/>
+    [The best real-word analog of the below theorem that I know of, which is a pretty good analog, is the ideas of orbits and stabilizers, which has the advantage or disadvantage of not having the weird sets-tuples-atoms stuff and concentrating on the group-action part. Also, I belive that I have proven the below theorem, but it could very easily be wrong, and as I said before whether it's right or wrong isn't that significant, but if you've found a clear proof or a disproof do email me.]
+    <br/>
+    No mattter what the starting atoms and axioms are, let G be the subgroup of the permutations of the atoms that preserve all the axioms (for example, the cycle (12) maps {1, 2} to {1, 2} and so preserves it, but maps (1, 2) to (2, 1) and so does not preserve it). Let f(g, e) be the function that takes a g in G and an expression e and permutes all the atoms occuring in e according to g. There is a natural correspondance between equivalence classes of irreducible sets with the equivalence relation ~ defined above and conjugacy classes of subgroups of G, and for any irreducible set S and element e of S, the subset of elements g of G such that f(g, e) = e is in the conjugacy class of subgroups corresponding to S.
+    <br/>
+    Here's the application of yu zayashu neyi. (This application and far more, although not in a yu zayashu neyi format, can be found in a document called 'The Remarkable Number 6', which should thus get the credit. [This document actually exists, and it does contain much more than I'm going to say here. Read it if you want to.]) It's well known that S_6 (the symmetric group of permutations on 6 elements) has an outer automorphism to itself, which leads to weird copies of S_5 in S_6. There also exists (this seems unrelated, but bear with me) a concept of "packings" in projective space (I learned of this concept from an online article called 'Yea why try her raw wet hat' [this document also actually exists; it's also a good read and was a large part of my inspiration for yu zayashu neyi]), where a packing is a set of disjoint lines which each point is in exactly one of; I will slightly generalize this concept, and say that given a set S of expressions (not necessarily reachable) and a set T of subsets of S, a packing of S with T is a subset of T that covers S. One can verify by induction on the sizes of S and T that if S and T are reachable, the set of packings of S with T is reachable.
+    <br/>
+    Where is this going? Let us have our atoms be 1, 2, 3, 4, 5, 6, and our lone axiom A be {1, 2, 3, 4, 5, 6}. In this case G is S_6, and our axiom turns out to correspond to the copy of S_5 that fixes one atom (it's only up to conjugacy, so there's no particular atom that this is). We can construct from this axiom (try to see why) the set B of two-element subsets of {1, 2, 3, 4, 5, 6}. B has 15 elements. One might ask how many packings of A with B there are; there turn out to be 15, which all look like {{1, 2}, {3, 4}, {5, 6}}. The set C of these 15 packings turns out to be not only reachable, but also irreducible (as A and B also are). One might notice that C is a set of subsets of B, and that thus one can consider the packings of B with C. There turn out to be 6 such packings, and the set D of these 6 packings is also irreducible. Before you ask, there are no packings of C with D. However, D corresponds to a copy of S_5 in S_6. But there's no equivalence between A and D. In fact, D corresponds to the weird copies of S_5 in S_6, and the action of S_6 on D defined by g -&gt; (e -&gt; f(g, e)) gives the outer automorphism of S_6.
+    <br/>
+    It's worth saying that in this context, there's a better term for the packings we're dealing with than packings. We're basically taking disjoint edges of K_6, the complete graph on 6 vertices. Such a set of discrete edges of a graph covering the graph is known as a 1-factor of the graph. So here C is the set of 1-factors of K_6. A set of 1-factors covering every edge is known as a 1-factorization. So here D is the set of 1-factorizations of K_6.
+    <br/>
+    I hope this post was interesting, because I plan to do more posts like this in the future.
+    <br/>
+    Tags: @math, @algebra, @grouptheory, @yuzayashuneyi, @yeseanculture, @yese, @long, @post
+</body>
+</html>

@@ -1,0 +1,100 @@
+<html>
+<head>
+    <meta charset='UTF-8'>
+</head>
+<body>
+    English: There is a small butterfly. There are no plants; it is lost in the city.
+    <br/>
+    Yesean: role chocho / mu chita / ti zego sose
+    <br/>
+    Literal English meaning: small butterfly / no plant / in city lost
+    <br/>
+    Author: yu buye tisu
+    <br/>
+    There are no new line structures here, but note the use of mu. It's a hisato, so it's forced to be one of the two words in its line.
+    <br/>
+    On another topic, I found a weird thing in Perl 6. For those who don't know, Perl 6 is a programming language descended from but different from Perl 5. Perl 6 has been well-implemented enough to be usable for several years, though not many people are using it yet.
+    <br/>
+    One of the many nice features of Perl 6 is its system for dealing with numbers. It has an arbitrary-size integer type, a non-arbitrary-size rational type (which is imprecise with large enough numbers, like floating-point, but doesn't take up more and more memory as you multiply more and more rational numbers), an arbitrary-size rational type (which is precise but thus can take up a lot of memory), and a floating-point type. This is a good system of numeric types, and one that few other languages have. However, there are some weird things about the floating-point type. I read that someone got the following output:
+    <pre>
+        &gt; 0.1e0 + 0.2e0 == 0.3e0
+        False
+        &gt; 1e-1 + 2e-1 == 3e-1
+        True
+    </pre>
+    which is weird. I could reproduce this, and all the numbers involved are floating-point. Doing further testing, I saw that
+    <pre>
+        &gt; 0.1e0 == 1e-1
+        True
+        &gt; 0.2e0 == 2e-1
+        True
+        &gt; 0.3e0 == 3e-1
+        True
+    </pre>
+    which is very weird given the above. Some more testing (using the fact that checking equality of more than two numbers in Perl 6, as in Python, can be done by putting equal signs in between):
+    <pre>
+        &gt; 0.1e0 + 0.2e0 == 1e-1 + 2e-1
+        True
+        &gt; 0.1e0 + 0.2e0 == 1e-1 + 2e-1 == 3e-1
+        True
+        &gt; 0.1e0 + 0.2e0 == 1e-1 + 2e-1 == 3e-1 == 0.3e0
+        True
+        &gt; (0.1e0 + 0.2e0 == 1e-1 + 2e-1) &amp;&amp; (1e-1 + 2e-1 == 3e-1) &amp;&amp; (3e-1 == 0.3e0)
+        True
+        &gt; 0.1e0 + 0.2e0 == 0.3e0
+        False
+        &gt; 0.1e0 + 0.2e0 == 3e-1
+        True
+        &gt; 3e-1 == 0.3e0
+        True
+    </pre>
+    OK, this is spooky. I'd expect Perl 6, of all languages, to have transitivity of equality. But in fact it's even weirder than this. I created the following files:
+    <br/>
+        test1.p6:
+    <pre>
+        my $a = 3e-1;
+        say 0.1e0 + 0.2e0 == 0.3e0;
+    </pre>
+    test2.p6:
+    <pre>
+        my $a = 0.3e0;
+        say 0.1e0 + 0.2e0 == 0.3e0;
+    </pre>
+    test3.p6:
+    <pre>
+        say 0.1e0 + 0.2e0 == 0.3e0;
+    </pre>
+    test4.p6:
+    <pre>
+        say 0.1e0 + 0.2e0 == 0.3e0;
+        my $a = 3e-1;
+    </pre>
+    And tried running them. Apparently the result of test1.p6 is True and the result of all the others is False. How exactly initializing an unused variable to 3e-1 changes the results of an equality test not even involving 3e-1 is still unclear to me. I expect that someone has already noticed and fixed this, but it's weird that it happens.
+    <br/>
+    [I really like how I avoided having to come up with a fake etymology for "Rakudo" here. I still have enough degrees of freedom to do so, but I'd rather not if possible. Perhaps the Perl 6 community in the world this blog is set in has decided to just call the main implementation "Perl 6" due to some belief that no other implementation will come along.]
+    <br/>
+    I do feel a bit bad for choosing this poem and this topic together, for the reason that Perl 6's mascot is a butterfly, but for that same reason the opportunity was too tempting to avoid. If you are offended, please accept this second poem as a token of gratitude:
+    <br/>
+    jo sose ru / mu nuho / nere sule
+    <br/>
+    which is literally:
+    <br/>
+    "lost thing" / not know / in fact basis
+    <br/>
+    and more ideomatically:
+    <br/>
+    You say (or think) it's lost / you don't know / in fact it's the basis
+    <br/>
+    which is meant to mean that someone thinks something else is lost, but the speaker is saying to the contrary that the thing supposedly lost is in fact that from which all else is measured. I certainly don't think Perl 6 is lost (it is exploring new parts of language space, though), but neither is it yet that from which all other languages are measured. We can hope that it (or something with its nice features) becomes the standard, though. When this happens I will make an official post with the second poem. (Remember, the idea is that I keep posting for a cycle. A cycle ago I would be blogging about the first bug being found (and it would be a literal bug).)
+    <br/>
+    The now required further grammatical comments: jo turns something into a thought or statement referencing that thing (and thus is a hisato). It acts much like quotes. Here it's being used to refer to the statement or thought of "lost thing" (meaning that the butterfly/Perl 6 is lost), implying that this statement or thought is indeed said or thought.
+    <br/>
+    Every language has a spectrum of "know/think/believe" words. nuho is much like English "know". [I'm a little worried that the meaning of each word is too much like the meaning of some corresponding English word. Please tell me if this seems to be the case.]
+    <br/>
+    nere just means "in fact"; it's also a hisato. sule is more interesting. It can mean standard, or basis, or most generally that from which everything is measured. Here it's sort of representing a "zero point" marker from which all points in a city are measured. (If the marker is where it should be, how can you be lost at it? It's by definition the center of its city. On the other hand, if you put me at the zero point of Paris, I'd have no more idea about where I was than if I were in a Pleistocene dreamscape.) In other contexts it could refer to a unit of length or time or the definition of such a unit, a coordinate system, a definition for some type of thing, or even a set of axioms.
+    <br/>
+    As a last thing: I am more or less done with the long tag. It seems like every post is about the same length (near 6k), so the long tag is sort of just a synonym for post. From now on a post only gets the long tag if it's over 10k, maybe not even then.
+    <br/>
+    Tags: @programming, @perl6, @extrarolejuleku, @post
+</body>
+</html>

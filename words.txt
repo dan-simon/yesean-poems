@@ -363,4 +363,34 @@ butterfly: chocho
 camel: pigeza
 lose (opposite of win): pesa
 win: ehi
-lost (as of a living thing): sose
+lost (as of a living thing)/not knowing where it is: sose
+standard, basis, that by which all else is measured or evaluated: sule
+[hisato that turns chubeni into thought or statement referring to that chubeni or (similarly) can quote it]: jo
+[singular marker]: ba
+[present marker]: pi
+in fact: nere
+indeed: limu
+at any rate: kate
+certainly: juchu
+as you know: lene
+believe (a fact): yoro
+believe (a person)/trust: shula
+convince: dome
+think (either that something is true or not)/reflect (in terms of thinking, not mirrors)/imagine: isho
+know: nuho
+meditate: too
+oyster: hilagu
+pearl: hora
+[yes-no question marker, 'question ?' included in definition for easy finding]: za
+harvest/reap (of grain): bino
+mow (of grass)/cut (of hair)/reap (of grain); in general, to cut the top of stalk-like things off: hema
+grain: gebe
+rice: zasi
+grass: naje
+take/capture (some object, person, or game piece)/pick up: luye
+steal: choji
+eat: yosu
+earn: reo
+choose: sege
+remove/take away/take [object] off: ride
+put/place: meno

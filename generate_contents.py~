@@ -24,7 +24,7 @@ def join_br(l):
     return '\n    <br/>\n    '.join(l)
 
 def valid_tag(tag):
-    return tag[0] == '@' and tag[1:].isalnum() and (tag.lower() == tag)
+    return tag[0] == '@' and tag[1:].isalpha() and tag[1:].islower()
 
 def get_tags(x):
     tag_line_start = 'Tags:'

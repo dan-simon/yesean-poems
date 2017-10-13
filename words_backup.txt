@@ -20,13 +20,12 @@ helper word [yesean grammatical term]: nibeze
 with respect to: su
 not (hisato): mu
 with (of manner): pe
-in: ti
+in, on, at (spatially or temporally): ti
 [plural marker]: da
 [subject marker]: mi
 [object marker]: lu
 [inversion marker]: ro
 on: disa
-note not word - ti can mean in, on, or even at (spatially or temporally): 389483947304
 fog: zijone
 low: sapa
 high: ala
@@ -78,7 +77,7 @@ sky blue: galubi
 grey/gray: toni
 air: higa
 water: choni
-earth (material)/soil/dirt/mud: noko
+earth (material)/soil/dirt/mud/ground (noun): noko
 dust: boju
 wind: golo
 wood (the material)/tree: osi
@@ -207,7 +206,7 @@ possess (as property): gadu
 carry: yeshe
 hold (verb): deshu
 sea/ocean: buhi
-create: bipe
+create (often from nothing, usually physically): bipe
 destroy: shayo
 lake (larger than pond): belo
 pond (smaller than lake): huku
@@ -264,7 +263,7 @@ ugly: bupi
 like (verb): pugu
 solve: nezu
 find: kuru
-lose: tosi
+lose (opposite of find): tosi
 head (noun): puli
 control (verb or abstract): lizu
 guide (verb): genu
@@ -357,3 +356,68 @@ symmetry: zayashu
 yes (hisato, mostly used in contrast to mu or with some chubeni as an answer): de
 city/town/large settlement: zego
 void/aether (noun): suni
+music: jite
+comfort: dubi
+butterfly: chocho
+camel: pigeza
+lose (opposite of win): pesa
+win: ehi
+lost (as of a living thing)/not knowing where it is: sose
+standard, basis, that by which all else is measured or evaluated: sule
+[hisato that turns chubeni into thought or statement referring to that chubeni or (similarly) can quote it]: jo
+[singular marker]: ba
+[present marker]: pi
+in fact: nere
+indeed: limu
+at any rate: kate
+certainly: juchu
+as you know: lene
+believe (a fact): yoro
+believe (a person)/trust: shula
+convince: dome
+think (either that something is true or not)/reflect (in terms of thinking, not mirrors)/imagine: isho
+know: nuho
+meditate: too
+oyster: hilagu
+pearl: hora
+[yes-no question marker, 'question ?' included in definition for easy finding]: za
+harvest/reap (of grain): bino
+mow (of grass)/cut (of hair)/reap (of grain); in general, to cut the top of stalk-like things off: hema
+grain: gebe
+rice: zasi
+grass: naje
+take/capture (some object, person, or game piece)/pick up: luye
+steal: choji
+eat: yosu
+earn: reo
+choose: sege
+remove/take away/take [object] off: ride
+put/place: meno
+smooth (hisato): yahoyi
+construct/build: boni
+make (can be used to mean raise, cook, write, form, etc): nasi
+cross (verb): kishu
+angry: jaye
+cross (shape)/crossing: dagu
+invent: yije
+triangle: shezosho
+square: zega
+place (noun): nuyo
+outer space: chunu
+space (as opposed to time): jahe
+time (as opposed to space): tubu
+time (a specific time): ushu
+edge/boundery: eno
+side (geometry): sida
+edge (geometry): edega
+vertex (geometry): urate
+shape (noun): lire
+circle: hija
+sphere: yohu
+cube: yase
+wall/fence/barrier: yeye
+enclose: kegi
+separate (verb): lepi
+write poetry: mileku
+floor: hiye
+ceiling: zera

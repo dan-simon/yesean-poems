@@ -13,7 +13,8 @@ restore_synonyms = ['restore']
 
 save_synonyms = ['back', 'backup', 'save']
 
-actions = ['add', 'all', 'given', 'trans', 'intrans', 'check'] + define_synonyms + delete_synonyms + restore_synonyms + save_synonyms
+actions = ['add', 'all', 'given', 'trans', 'intrans', 'check', 'count'] + \
+    define_synonyms + delete_synonyms + restore_synonyms + save_synonyms
 
 consonants = ['', 'r', 't', 'y', 'p', 's', 'd', 'g', 'h', 'j', 'k', 'l',
 'z', 'b', 'n', 'm', 'ch', 'sh']
@@ -62,8 +63,9 @@ def add(word, syllables=None, translation=None):
     print('Generated word ' + translation + ' to mean ' + word)
 
 def check(word):
-    # numbers are note ids
-    return word and (word.isdigit() or word[-1] in vowels and all(i in consonants for i in re.split('[' + vowels + ']', word)))
+    # numbers used to be note ids but we got rid of the note id system so now they're not
+    # this is just a historical note of the system, not something that should actually matter going forward
+    return word and word[-1] in vowels and all(i in consonants for i in re.split('[' + vowels + ']', word))
 
 def check_all():
     for i in read_words():
@@ -114,13 +116,13 @@ def main(action, word=None, syllables=None):
         raise ValueError('invalid action!')
     if (action not in ['add', 'define', 'given']) != (syllables is None):
         raise ValueError('syllables issue')
-    if (action in ['all', 'check'] or action in restore_synonyms + save_synonyms) != (word is None):
+    if (action in ['all', 'check', 'count'] or action in restore_synonyms + save_synonyms) != (word is None):
         raise ValueError('word issue')
     if action == 'add':
        add(word, syllables=int(syllables))
-    if action == 'check':
+    elif action == 'check':
         check_all()
-    if action == 'given':
+    elif action == 'given':
         # hack
         new_word = syllables
         add(word, translation=new_word)
@@ -140,6 +142,8 @@ def main(action, word=None, syllables=None):
         translate(word, contains=True)
     elif action == 'all':
         translate(None)
+    elif action == 'count':
+        print('Number of words: ' + str(len(read_words())))
 
 if __name__ == '__main__':
     main(*sys.argv[1:])

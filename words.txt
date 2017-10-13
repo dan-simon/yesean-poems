@@ -20,13 +20,12 @@ helper word [yesean grammatical term]: nibeze
 with respect to: su
 not (hisato): mu
 with (of manner): pe
-in: ti
+in, on, at (spatially or temporally): ti
 [plural marker]: da
 [subject marker]: mi
 [object marker]: lu
 [inversion marker]: ro
 on: disa
-note not word - ti can mean in, on, or even at (spatially or temporally): 389483947304
 fog: zijone
 low: sapa
 high: ala
@@ -84,7 +83,7 @@ wind: golo
 wood (the material)/tree: osi
 sand: soso
 metal: bobi
-road/path: hahe
+road/path/street: hahe
 to (indirect object): je
 to (of location): ye
 from (of location or possession): bo
@@ -113,7 +112,7 @@ come: muye
 China (nowadays inappropriate): shina
 branch (of a tree), metaphorically a part of something: shine
 China (modern term): chugoku
-part: lare
+part (noun), piece: lare
 center/middle: kaja
 full: yeti
 empty (adjective): buza
@@ -121,7 +120,7 @@ energy: gete
 sky: bepi
 element (basic substance that makes up things, can be used metaphorically): riche
 element (as in chemistry): elemetu
-to be, to exist: sago
+to be, to exist, (of an event) to happen, to occur: sago
 [predicate marker, used with to be, to become, and such]: ta
 become (takes a predicate): boji
 [past tense marker]: yi
@@ -207,7 +206,7 @@ possess (as property): gadu
 carry: yeshe
 hold (verb): deshu
 sea/ocean: buhi
-create: bipe
+create (often from nothing, usually physically): bipe
 destroy: shayo
 lake (larger than pond): belo
 pond (smaller than lake): huku
@@ -394,3 +393,39 @@ earn: reo
 choose: sege
 remove/take away/take [object] off: ride
 put/place: meno
+smooth (hisato): yahoyi
+construct/build: boni
+make (can be used to mean raise, cook, write, form, etc): nasi
+cross (verb): kishu
+angry: jaye
+cross (shape)/crossing: dagu
+invent: yije
+triangle: shezosho
+square: zega
+place (noun): nuyo
+outer space: chunu
+space (as opposed to time): jahe
+time (as opposed to space): tubu
+time (a specific time): ushu
+edge/boundery: eno
+side (geometry): sida
+edge (geometry): edega
+vertex (geometry): urate
+shape (noun): lire
+circle: hija
+sphere: yohu
+cube: yase
+wall/fence/barrier: yeye
+enclose: kegi
+separate (verb): lepi
+write poetry: mileku
+floor: hiye
+ceiling: zera
+walk: dedi
+run: rijo
+that is/[apposition marker]: gu
+to act, to do something, to take action: rame
+process, way things are done, set of steps: ligo
+step (not of a staircase), phase, part of a process or event: ganu
+play (noun), theatrical performance: rohuye
+act (in a play) (verb), perform (in some theatrical performance): rarohu

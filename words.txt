@@ -112,7 +112,6 @@ come: muye
 China (nowadays inappropriate): shina
 branch (of a tree), metaphorically a part of something: shine
 China (modern term): chugoku
-part (noun), piece: lare
 center/middle: kaja
 full: yeti
 empty (adjective): buza
@@ -429,3 +428,6 @@ process, way things are done, set of steps: ligo
 step (not of a staircase), phase, part of a process or event: ganu
 play (noun), theatrical performance: rohuye
 act (in a play) (verb), perform (in some theatrical performance): rarohu
+[continuity/habituality aspect marker]: gi
+sequence (finite or infinite) (of any type of thing)/series (not as meaning sum, but as in series of books/paintings/other things): nunu
+part (noun), piece (some common uses are that a part of a process or event can refer to a phase or step (not of a staircase) and is another way of saying ganu, and that a part of a sequence can refer to an element of that sequence; often lare is used alone when the thing that it refers to a part of is implicit): lare

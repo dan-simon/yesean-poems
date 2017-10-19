@@ -13,7 +13,7 @@ restore_synonyms = ['restore']
 
 save_synonyms = ['back', 'backup', 'save']
 
-actions = ['add', 'all', 'given', 'trans', 'intrans', 'check', 'count'] + \
+actions = ['add', 'all', 'given', 'trans', 'intrans', 'check', 'count', 'input'] + \
     define_synonyms + delete_synonyms + restore_synonyms + save_synonyms
 
 consonants = ['', 'r', 't', 'y', 'p', 's', 'd', 'g', 'h', 'j', 'k', 'l',
@@ -111,12 +111,43 @@ def define(word, definition):
             else:
                 f.write(definition + ': ' + i + '\n')
 
+def take_input():
+    while True:
+        command = input('> ')
+        if command in ['exit', 'quit']:
+            exit()
+        try:
+            main(*parse_command(command))
+        except ValueError as e:
+            print('Error: ' + e)
+
+def parse_command(command):
+    mode = None
+    r = [[]]
+    for i in command:
+        if mode is None:
+            if i in '\'"':
+                r.append([])
+                mode = i
+            elif i == ' ':
+                r.append([])
+            else:
+                r[-1].append(i)
+        else:
+            if i == mode:
+                r.append([])
+                mode = None
+            else:
+                r[-1].append(i)
+    return [''.join(i) for i in r if i]
+
+
 def main(action, word=None, syllables=None):
     if action not in actions:
         raise ValueError('invalid action!')
     if (action not in ['add', 'define', 'given']) != (syllables is None):
         raise ValueError('syllables issue')
-    if (action in ['all', 'check', 'count'] or action in restore_synonyms + save_synonyms) != (word is None):
+    if (action in ['all', 'check', 'count', 'input'] or action in restore_synonyms + save_synonyms) != (word is None):
         raise ValueError('word issue')
     if action == 'add':
        add(word, syllables=int(syllables))
@@ -144,6 +175,8 @@ def main(action, word=None, syllables=None):
         translate(None)
     elif action == 'count':
         print('Number of words: ' + str(len(read_words())))
+    elif action == 'input':
+        take_input()
 
 if __name__ == '__main__':
     main(*sys.argv[1:])

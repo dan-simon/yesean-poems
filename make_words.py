@@ -119,7 +119,7 @@ def take_input():
         try:
             main(*parse_command(command))
         except ValueError as e:
-            print('Error: ' + e)
+            print('Error: ' + str(e))
 
 def parse_command(command):
     mode = None
@@ -144,7 +144,7 @@ def parse_command(command):
 
 def main(action, word=None, syllables=None):
     if action not in actions:
-        raise ValueError('invalid action!')
+        raise ValueError('invalid action! ' + str(action))
     if (action not in ['add', 'define', 'given']) != (syllables is None):
         raise ValueError('syllables issue')
     if (action in ['all', 'check', 'count', 'input'] or action in restore_synonyms + save_synonyms) != (word is None):

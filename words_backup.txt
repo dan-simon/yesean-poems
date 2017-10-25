@@ -35,11 +35,11 @@ cloud: chucheni
 tower: lesuo
 hide: nenedo
 number: kuda
-one (number): doya
-two: rumo
-three: tiza
-four: yole
-five: sau
+one (number) (hisato): doya
+two (hisato): rumo
+three (hisato): tiza
+four (hisato): yole
+five (hisato, higher numbers are also hisato even though I haven't added that to the definitions yet): sau
 six: muki
 seven: robise
 eight: rigatu
@@ -83,7 +83,7 @@ wind: golo
 wood (the material)/tree: osi
 sand: soso
 metal: bobi
-road/path: hahe
+road/path/street: hahe
 to (indirect object): je
 to (of location): ye
 from (of location or possession): bo
@@ -112,7 +112,6 @@ come: muye
 China (nowadays inappropriate): shina
 branch (of a tree), metaphorically a part of something: shine
 China (modern term): chugoku
-part: lare
 center/middle: kaja
 full: yeti
 empty (adjective): buza
@@ -120,7 +119,7 @@ energy: gete
 sky: bepi
 element (basic substance that makes up things, can be used metaphorically): riche
 element (as in chemistry): elemetu
-to be, to exist: sago
+to be, to exist, (of an event) to happen, to occur: sago
 [predicate marker, used with to be, to become, and such]: ta
 become (takes a predicate): boji
 [past tense marker]: yi
@@ -254,7 +253,7 @@ sleep: tili
 many: unu
 most: upo
 plentiful: ziyoyo
-zero: nicho
+zero (hisato): nicho
 cute: shohe
 beautiful: jadi
 smart: shudu
@@ -409,7 +408,7 @@ time (as opposed to space): tubu
 time (a specific time): ushu
 edge/boundery: eno
 side (geometry): sida
-edge (geometry): edega
+edge (geometry, graph theory, other math): edega
 vertex (geometry): urate
 shape (noun): lire
 circle: hija
@@ -421,3 +420,19 @@ separate (verb): lepi
 write poetry: mileku
 floor: hiye
 ceiling: zera
+walk: dedi
+run: rijo
+that is/[apposition marker]: gu
+to act, to do something, to take action: rame
+process, way things are done, set of steps: ligo
+step (not of a staircase), phase, part of a process or event: ganu
+play (noun), theatrical performance: rohuye
+act (in a play) (verb), perform (in some theatrical performance): rarohu
+[continuity/habituality aspect marker]: gi
+sequence (finite or infinite) (of any type of thing)/series (not as meaning sum, but as in series of books/paintings/other things): nunu
+part (noun), piece (some common uses are that a part of a process or event can refer to a phase or step (not of a staircase) and is another way of saying ganu, and that a part of a sequence can refer to an element of that sequence; often lare is used alone when the thing that it refers to a part of is implicit): lare
+network, graph (as in graph theory): garapa
+connect: hiku
+[pechapi meaning number of times, so once with one, twice with two, etc. Generally takes so + number.]: loki
+observe/notice: napa
+fix (chubeni)/correct (chubeni)/mend: reja

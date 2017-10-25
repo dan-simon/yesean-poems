@@ -35,11 +35,11 @@ cloud: chucheni
 tower: lesuo
 hide: nenedo
 number: kuda
-one (number): doya
-two: rumo
-three: tiza
-four: yole
-five: sau
+one (number) (hisato): doya
+two (hisato): rumo
+three (hisato): tiza
+four (hisato): yole
+five (hisato, higher numbers are also hisato even though I haven't added that to the definitions yet): sau
 six: muki
 seven: robise
 eight: rigatu
@@ -253,7 +253,7 @@ sleep: tili
 many: unu
 most: upo
 plentiful: ziyoyo
-zero: nicho
+zero (hisato): nicho
 cute: shohe
 beautiful: jadi
 smart: shudu
@@ -408,7 +408,7 @@ time (as opposed to space): tubu
 time (a specific time): ushu
 edge/boundery: eno
 side (geometry): sida
-edge (geometry): edega
+edge (geometry, graph theory, other math): edega
 vertex (geometry): urate
 shape (noun): lire
 circle: hija
@@ -431,3 +431,8 @@ act (in a play) (verb), perform (in some theatrical performance): rarohu
 [continuity/habituality aspect marker]: gi
 sequence (finite or infinite) (of any type of thing)/series (not as meaning sum, but as in series of books/paintings/other things): nunu
 part (noun), piece (some common uses are that a part of a process or event can refer to a phase or step (not of a staircase) and is another way of saying ganu, and that a part of a sequence can refer to an element of that sequence; often lare is used alone when the thing that it refers to a part of is implicit): lare
+network, graph (as in graph theory): garapa
+connect: hiku
+[pechapi meaning number of times, so once with one, twice with two, etc. Generally takes so + number.]: loki
+observe/notice: napa
+fix (chubeni)/correct (chubeni)/mend: reja

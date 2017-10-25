@@ -30,7 +30,7 @@ def validate_post(filename):
         print('Weird start or end to post ' + filename)
     body = [i.lstrip() for i in post[len(usual_start):-len(usual_end)].split('\n')]
     if any(i.rstrip() != i for i in body):
-        print('Trailing whitespace in post ' + filename)
+        print('Trailing whitespace in post ' + filename + ' (' + [i for i in body if i.rstrip() != i][0] + ')')
     if any(not i for i in body):
         print('Empty line in post ' + filename + ', not doing additional checks on this file')
         return

@@ -1,9 +1,9 @@
 steep: hebubu
 quick: zoche
-go: kimo
+go (often nuga is used instead for inanimate objects) (can also be used of periods of time): kimo
 almost: riya
 fall (verb): horo
-[thing]: ru
+[thing, action, do something, person, sometimes acts as pronoun as in 'mi rezi ru ranu' ('all things die' or 'all [of something mentioned earlier] die'): ru
 [-ness]: so
 of: yu
 small/little: role
@@ -26,7 +26,7 @@ in, on, at (spatially or temporally): ti
 [object marker]: lu
 [inversion marker]: ro
 on: disa
-fog: zijone
+fog, mist: zijone
 low: sapa
 high: ala
 near [adjective]: buzi
@@ -108,7 +108,7 @@ Jupiter (planet): herapi
 Saturn (planet): rubutu
 Uranus (planet): uranu
 Neptune (planet): netunu
-come: muye
+come (often nuga is used instead for inanimate objects) (can also be used of periods of time): muye
 China (nowadays inappropriate): shina
 branch (of a tree), metaphorically a part of something: shine
 China (modern term): chugoku
@@ -159,7 +159,7 @@ horse: pere
 hunt (for meat): hohe
 hunt (in general)/search: jechu
 oil: gujumu
-all/every: rezi
+all/every (cannot be adverb as in 'to all jump'): rezi
 downwards to/going down to/going to somewhere under (pechapi) (of direction, not location): yamo
 upwards to/going up to/going to somewhere over (pechapi) (of direction, not location): yuye
 into: chosho
@@ -255,7 +255,7 @@ most: upo
 plentiful: ziyoyo
 zero (hisato): nicho
 cute: shohe
-beautiful: jadi
+beautiful, pretty: jadi
 smart: shudu
 stupid: hehi
 ugly: bupi
@@ -395,7 +395,7 @@ put/place: meno
 smooth (hisato): yahoyi
 construct/build: boni
 make (can be used to mean raise, cook, write, form, etc): nasi
-cross (verb): kishu
+cross (verb)/go across/be at positions across (for example, a highway crosses the country): kishu
 angry: jaye
 cross (shape)/crossing: dagu
 invent: yije
@@ -421,9 +421,9 @@ write poetry: mileku
 floor: hiye
 ceiling: zera
 walk: dedi
-run: rijo
+rush, run, move quickly (perhaps too quickly): rijo
 that is/[apposition marker]: gu
-to act, to do something, to take action: rame
+to act, to do something, to take action, to do (can be transitive): rame
 process, way things are done, set of steps: ligo
 step (not of a staircase), phase, part of a process or event: ganu
 play (noun), theatrical performance: rohuye
@@ -436,3 +436,89 @@ connect: hiku
 [pechapi meaning number of times, so once with one, twice with two, etc. Generally takes so + number.]: loki
 observe/notice: napa
 fix (chubeni)/correct (chubeni)/mend: reja
+mysterious: bize
+island: bilo
+continent: ihuga
+peninsula: ririche
+ocean: usa
+sea, large body of water: chosha
+list: joe
+table of contents: zonaki
+table: loba
+introduce (as with people): tejopu
+preface, introduction: naruse
+epilogue (of book or other work), afterword: lachipu
+brave: yabeko
+cowardly: johicho
+outstanding: sizaju
+this, that [referring to thing previously mentioned]: huyi
+word: soje
+strong: kulo
+weak: dide
+power: kaku
+action, deed: lurame
+melt (intransitive): pujo
+boil (verb, intransitive, not to get boils): yahi
+each other, one another: pusi
+sculpture: koligi
+sculpt, make a sculpture: milogi
+small amount of (hisato): makemu
+large amount of (hisato): pogeo
+snow (substance): uro
+snow (verb): houro
+rain (substance): eza
+rain (verb): hoeza
+bright (luminous): topu
+dim (not luminous): rayo
+soon: lei
+move (often used rather than go for inanimate objects): nuga
+waterfall: choro
+fly (verb): tuba
+fly (type of animal): lilapu
+between: lota
+bush (type of plant): dabuso
+food: hose
+shallow: mudo
+deep: niba
+river (larger than stream): rozo
+stream (smaller than river): paji
+string (literal material)/rope: chato
+chain (literal, noun): degi
+chain/string (usually metaphorical); a line of things together; can be used as a transitive verb, for example, to chain functions; in 'a chain of rocks', 'rocks' would be the object: neze
+lone, alone: malo
+pine (type of tree): honoko
+cut (of things bigger than stalks); compare to hema: muju
+amber: yiamo
+scar, wound that is a remnant of something violent: chotabu
+wound: rolu
+weird/strange/unusual: yuki
+tree stump: yezebu
+house/home: neyu
+fairy: jushika
+plain/grassland: loro
+forest: rosi
+mountain: situ
+hill: hati
+valley: jasho
+dew: zukijo
+frost: jenasha
+ice: mebi
+swamp: tubi
+leave (something) behind (transative): dahu
+who/what/which: gumu
+wet: jeli
+dry: detu
+wave: kebi
+collide with, hit (not in sense of punch): picho
+kick (literal): shozine
+punch (verb): karesa
+fight: iza
+bubble: chuluna
+surface (noun): sigajo
+field (of crops, of plants): poli
+reed: hichoru
+loud: soo
+quiet: nuka
+subway: chikate
+land (as opposed to water): kuyi
+scenery, view (as in what you see from a point, landscape): keshiki
